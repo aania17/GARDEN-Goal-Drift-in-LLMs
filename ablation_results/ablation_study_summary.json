@@ -1,0 +1,104 @@
+{
+  "study_metadata": {
+    "start_time": "2026-04-13T12:18:59.993699",
+    "end_time": "2026-04-13T12:56:26.337109",
+    "total_duration_seconds": 2246.34341,
+    "total_tasks": 10,
+    "total_modes": 4,
+    "total_runs": 40
+  },
+  "modes": [
+    "baseline",
+    "embedding_only",
+    "judge_only",
+    "hybrid"
+  ],
+  "summary_statistics": {
+    "by_mode": {
+      "baseline": {
+        "successful_tasks": 4,
+        "alignment_scores": [
+          0.75,
+          0.75,
+          0.6875,
+          0.75,
+          0.5625,
+          0.75,
+          0.6875,
+          0.75,
+          0.75,
+          0.625
+        ],
+        "total_drifts": 28,
+        "total_corrections": 0,
+        "success_rate": 0.4,
+        "avg_alignment": 0.70625,
+        "avg_drift": 2.8,
+        "avg_corrections": 0.0
+      },
+      "embedding_only": {
+        "successful_tasks": 9,
+        "alignment_scores": [
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.5625,
+          0.75,
+          0.75,
+          0.75
+        ],
+        "total_drifts": 17,
+        "total_corrections": 9,
+        "success_rate": 0.9,
+        "avg_alignment": 0.73125,
+        "avg_drift": 1.7,
+        "avg_corrections": 0.9
+      },
+      "judge_only": {
+        "successful_tasks": 8,
+        "alignment_scores": [
+          0.6875,
+          0.75,
+          0.6,
+          0.75,
+          0.75,
+          0.6875,
+          0.5833333333333334,
+          0.6875,
+          0.6875,
+          0.75
+        ],
+        "total_drifts": 1,
+        "total_corrections": 8,
+        "success_rate": 0.8,
+        "avg_alignment": 0.6933333333333334,
+        "avg_drift": 0.1,
+        "avg_corrections": 0.8
+      },
+      "hybrid": {
+        "successful_tasks": 8,
+        "alignment_scores": [
+          0.75,
+          0.6875,
+          0.75,
+          0.75,
+          0.6875,
+          0.75,
+          0.5625,
+          0.6875,
+          0.625,
+          0.75
+        ],
+        "total_drifts": 0,
+        "total_corrections": 5,
+        "success_rate": 0.8,
+        "avg_alignment": 0.7,
+        "avg_drift": 0.0,
+        "avg_corrections": 0.5
+      }
+    }
+  }
+}

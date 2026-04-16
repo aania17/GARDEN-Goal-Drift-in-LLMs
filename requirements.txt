@@ -1,0 +1,22 @@
+# LLM backend — install Ollama separately from https://ollama.com
+# then run: ollama pull llama3.2
+requests>=2.31.0
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+# Vector store (RAG Layer 5)
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# ArXiv paper fetching (optional, for real RAG content)
+arxiv>=2.1.0
+
+# Web search fallback for executor (optional)
+ddgs>=0.3.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Evaluation & Visualizations
+matplotlib>=3.7.0
